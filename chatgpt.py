@@ -12,8 +12,8 @@ logging.basicConfig(level=logging.WARNING)  # Suppress debug and info logs
 logger = logging.getLogger("telethon")
 logger.setLevel(logging.WARNING)  # Set Telethon's logging to WARNING
 
-TOKEN: Final = "7449515379:AAFQnodKcqCofSA1AP9aCIMXdsWtKxT7KqE"
-BOT_USERNAME: Final = "@botanslokalbotbot"
+TOKEN: Final = "bot_token"
+BOT_USERNAME: Final = "@bot_username"
 user_message = 'pesan'
 sts_set_message = False
 sts_run = False
